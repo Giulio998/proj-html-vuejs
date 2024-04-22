@@ -1,8 +1,10 @@
 <script>
 import  AppHero  from "./AppHero.vue"
+import AppBlocks from "./AppBlocks.vue"
 export default {
     components: {
-        AppHero
+        AppHero,
+        AppBlocks,
     }
 }
 
@@ -11,6 +13,7 @@ export default {
 <template>
     <main>
         <AppHero/>
+        <AppBlocks/>
 
 
 
