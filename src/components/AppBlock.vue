@@ -15,7 +15,8 @@ export default {
     <div class="block relative" @mouseover="hovered= true" @mouseleave="hovered= false">
         <img :src="block.image" alt="">
         <div v-if="hovered==true" class="label ">
-        <p>{{ block.label }}</p>
+        <h3>{{ block.label }}</h3>
+        <p>{{ block.type }}</p>
         </div>
     </div>
         

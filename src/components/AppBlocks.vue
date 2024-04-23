@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <section>
+    <section class="paddingTop">
         <div class="flex wrap">
             <template v-for="block in store.blockArray">
                 <AppBlock :block="block" />
@@ -30,4 +30,8 @@ export default {
 
 </template>
 
-<style scoped></style>
+<style scoped>
+.paddingTop{
+    padding-top: 20px;
+}
+</style>
