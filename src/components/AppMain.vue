@@ -2,11 +2,13 @@
 import  AppHero  from "./AppHero.vue"
 import AppBlocks from "./AppBlocks.vue"
 import AppProcess from "./AppProcess.vue"
+import AppContact from "./App.Contact.vue";
 export default {
     components: {
         AppHero,
         AppBlocks,
         AppProcess,
+        AppContact,
     }
 }
 
@@ -17,6 +19,7 @@ export default {
         <AppHero/>
         <AppBlocks/>
         <AppProcess/>
+        <AppContact/>
 
 
 

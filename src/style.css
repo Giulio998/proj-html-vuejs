@@ -78,3 +78,7 @@ i {
 }
 
 .relative{position: relative;}
+
+.text-center {
+  text-align: center;
+}

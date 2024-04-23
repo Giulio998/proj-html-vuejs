@@ -85,9 +85,6 @@ h3{
 
 p{font-weight: lighter;}
 
-.text-center {
-    text-align: center;
-}
 
 .padding {
     padding:70px 70px 0;
