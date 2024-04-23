@@ -71,17 +71,26 @@ export default {
 </template>
 
 <style scoped>
+
+
 h2 {
     font-weight: lighter;
     font-size: 40px;
 }
+
+h3{
+    font-weight: light;
+    margin-bottom: 10px;
+}
+
+p{font-weight: lighter;}
 
 .text-center {
     text-align: center;
 }
 
 .padding {
-    padding: 70px;
+    padding:70px 70px 0;
 }
 
 .wave {
