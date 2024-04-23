@@ -39,7 +39,7 @@ h2 {
     padding: 70px;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 390px;
+    height: 360px;
     
 }
 
