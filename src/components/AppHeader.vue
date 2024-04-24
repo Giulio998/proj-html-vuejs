@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <header class="flex justify-content-between padding align-items-center">
+    <header id="header" class="flex justify-content-between padding align-items-center">
         <div>
             <img :src="logo" alt="">
         </div>
