@@ -45,14 +45,14 @@ export const store = reactive({
             image: "/src/assets/img/h-2-blog-img-1.jpg",
             title: "This way, loves: a detailed guide through new design",
             info: "By Emily Fields",
-            reminder : "07",
+            reminder: "07",
             date: "May '19",
         },
         {
             image: "/src/assets/img/h-2-blog-img-2.jpg",
             title: "I try to give people a different way of looking art",
             info: "By Emily Fields",
-            reminder : "07",
+            reminder: "07",
             date: "May '19",
 
         },
@@ -60,12 +60,24 @@ export const store = reactive({
             image: "/src/assets/img/h-2-blog-img-3.jpg",
             title: "Introduce Richard Laperriére of those amazing features",
             info: "By Emily Fields",
-            reminder : "07",
+            reminder: "07",
             date: "May '19",
 
         },
-    ]
+    ],
 
+    footerData: 
+        {logo: "/src/assets/img/logo-sidearea-1.png",
+        slogan: "Let's get creative",
+        email: "maree.qode@gmail.com",
+        phone:"+44645 321 789",
+        address: "Avenue d'Auderghem 10",
+        location:"1040 Brussels, Belgium",
+        contact:"Stay in touch with us",
+        social : ["/src/assets/svg/twitter.svg","/src/assets/svg/pinterest.svg","/src/assets/svg/facebook.svg","/src/assets/svg/linkedin.svg"]
+
+        }
+    
 
 
 

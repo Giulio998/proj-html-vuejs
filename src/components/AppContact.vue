@@ -11,11 +11,7 @@ export default {
         <p class="marginBottom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, earum excepturi
             odio accusamus voluptatem nam dolorem doloribus? Enim?</p>
         <button>CONTACT</button>
-
-
     </section>
-
-
 </template>
 
 <style scoped>
@@ -47,5 +43,11 @@ button {
     padding: 12px 50px;
     border: none;
     background-color: var(--d8f0e3);
+    cursor: pointer;
+}
+
+button:hover{
+  color: var(--ffffff);
+  background-color: var(--e1c0b0);
 }
 </style>

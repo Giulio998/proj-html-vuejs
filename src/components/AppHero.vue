@@ -224,4 +224,10 @@ button {
     bottom: 271px;
     left: 410px;
 }
+
+button:hover{
+  color: var(--ffffff);
+  background-color: var(--e1c0b0);
+}
+
 </style>

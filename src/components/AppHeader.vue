@@ -18,7 +18,7 @@ export default {
             <template v-for="link in navBarLinks">
                 <a href="#">{{ link }}</a>
             </template>
-            <div> <img class="marginLeft" :src="optionImg" alt="MENU"></div>
+            <div><a href="http://"><img class=" menu" :src="optionImg" alt="MENU"></a> </div>
         </div>
     </header>
 
@@ -44,7 +44,4 @@ a{
     color: black;
 }
 
-.marginLeft{
-    margin-left: 12px;
-}
 </style>

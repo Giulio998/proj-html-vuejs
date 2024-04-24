@@ -35,6 +35,7 @@ img{
 .card{
     width: calc(100%/4);
     margin: 0 20px;
+    cursor: pointer;
 }
 
 h2{
