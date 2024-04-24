@@ -66,18 +66,46 @@ export const store = reactive({
         },
     ],
 
-    footerData: 
-        {logo: "/src/assets/img/logo-sidearea-1.png",
+    footerData:
+    {
+        logo: "/src/assets/img/logo-sidearea-1.png",
         slogan: "Let's get creative",
         email: "maree.qode@gmail.com",
-        phone:"+44645 321 789",
+        phone: "+44645 321 789",
         address: "Avenue d'Auderghem 10",
-        location:"1040 Brussels, Belgium",
-        contact:"Stay in touch with us",
-        social : ["/src/assets/svg/twitter.svg","/src/assets/svg/pinterest.svg","/src/assets/svg/facebook.svg","/src/assets/svg/linkedin.svg"]
+        location: "1040 Brussels, Belgium",
+        contact: "Stay in touch with us",
+        social: ["/src/assets/svg/twitter.svg", "/src/assets/svg/pinterest.svg", "/src/assets/svg/facebook.svg", "/src/assets/svg/linkedin.svg"]
 
+    },
+
+    processArray: [
+        {
+            image: "/src/assets/img/lighting-bulb.png",
+            title: "First theres an idea",
+            text: "Lorem ipsum dolor sit amet.",
+        },
+        {
+            image: "/src/assets/svg/comment-regular.svg",
+            title: "Then we talk about",
+            text: "Lorem ipsum dolor sit amet.",
+        },
+        {
+            image: "/src/assets/svg/cloud-solid.svg",
+            title: "And we think about",
+            text: "Lorem ipsum dolor sit amet.",
+        },
+        {
+            image: "/src/assets/svg/pencil-solid.svg",
+            title: "So we draw along",
+            text: "Lorem ipsum dolor sit amet.",
         }
-    
+
+
+
+
+    ]
+
 
 
 

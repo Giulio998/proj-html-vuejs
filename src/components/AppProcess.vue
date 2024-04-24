@@ -1,93 +1,37 @@
 <script>
+import AppBubbleText from "./AppBubbleText.vue"
+import { store } from "../../store.js"
 export default {
     name: "AppProcess",
+    components: {
+        AppBubbleText,
+    },
+    data() {
+        return {
+            store
+        }
+    }
 }
 
 </script>
-
 <template>
     <section>
         <div class="text-center padding marginBottom">
             <h2>Working <i><strong>process</strong></i> </h2>
         </div>
         <div class="circlesDiv justify-content-center flex wave">
-            <div class="card">
-                <div class="circle bulb">
-                    <img class="icon" src="../assets/img/lighting-bulb.png" alt="">
-                </div>
-                <div class="text-center">
-                    <h3>
-                        First theres an idea
-                    </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet.
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="circle chat">
-                    <img class="icon" src="../assets/svg/comment-regular.svg" alt="">
-                </div>
-                <div class="text-center">
-                    <h3>
-                        Then we talk about
-                    </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet.
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="circle cloud">
-                    <img class="icon" src="../assets/svg/cloud-solid.svg" alt="">
-                </div>
-                <div class="text-center">
-                    <h3>
-                        And we think about
-                    </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet.
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="circle pencil">
-                    <img class="icon" src="../assets/svg/pencil-solid.svg" alt="">
-                </div>
-                <div class="text-center">
-                    <h3>
-                        So we draw along
-                    </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet.
-                    </p>
-                </div>
-            </div>
-
+            <template v-for="bubble in store.processArray">
+                <AppBubbleText :bubble="bubble" />
+            </template>
         </div>
     </section>
-
 
 </template>
 
 <style scoped>
-
-
 h2 {
     font-weight: lighter;
     font-size: 40px;
-}
-
-h3{
-    font-weight: light;
-    margin-bottom: 10px;
-}
-
-p{font-weight: lighter;}
-
-
-.padding {
-    padding:70px 70px 0;
 }
 
 .wave {
@@ -101,15 +45,6 @@ p{font-weight: lighter;}
     margin-bottom: 10px;
 }
 
-.circle {
-    background-color: var(--faf7f1);
-    padding: 35px;
-    border-radius: 50%;
-    margin: 20px 60px;
-    width: min-content;
-
-
-}
 
 section {
     padding-bottom: 100px;
@@ -119,5 +54,7 @@ section {
     height: 30px;
 }
 
-.card{padding-top: 30px;}
+.card {
+    padding-top: 30px;
+}
 </style>
