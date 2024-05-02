@@ -16,7 +16,7 @@ export default {
 </script>
 <template>
     <section>
-        <div class="text-center padding marginBottom">
+        <div class="text-center padding marginBottom marginTop">
             <h2>Working <i><strong>process</strong></i> </h2>
         </div>
         <div class="circlesDiv justify-content-center flex wave">
@@ -56,5 +56,9 @@ section {
 
 .card {
     padding-top: 30px;
+}
+
+.marginTop{
+    margin-top: 70px;
 }
 </style>
