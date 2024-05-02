@@ -9,7 +9,7 @@ export default {
 <template>
     <section class="flex align-items-center justify-content-center padding">
         <div class="margin">
-            <img class="marginBottom" :src="footerData.logo" alt="">
+            <img :src="footerData.logo" alt="">
             <p>{{ footerData.slogan }}</p>
         </div>
         <div class="margin">
